@@ -1,5 +1,5 @@
 /*BEGIN Xbox One Controller Styling*/
-.controller.custom {
+.controller.xbox {
     background: url(https://i.imgur.com/IMtvp0x.png);
     height: 600px;
     width: 750px;
@@ -7,33 +7,33 @@
         margin-top: -285px;*/
 }
 
-.custom.white {
+.xbox.white {
     background: url(https://i.imgur.com/IMtvp0x.png);
 }
 
-.custom.disconnected {
+.xbox.disconnected {
     background: url(https://i.imgur.com/vW26zr6.png);
 }
 
-.custom.disconnected div {
+.xbox.disconnected div {
     display: none;
 }
 
-.custom .triggers {
+.xbox .triggers {
     width: 446px;
     height: 121px;
     position: absolute;
     left: 152px;
 }
 
-.custom .trigger {
+.xbox .trigger {
     width: 88px;
     height: 121px;
     background: url(https://i.imgur.com/O4FPkVe.png);
     opacity: 0;
 }
 
-.custom .trigger.left {
+.xbox .trigger.left {
     float: left;
     position: absolute;
     left: -5px;
@@ -41,7 +41,7 @@
     background-position: 0 0;
 }
 
-.custom .trigger.right {
+.xbox .trigger.right {
     float: right;
     position: absolute;
     left: 363px;
@@ -49,14 +49,14 @@
     transform: rotateY(180deg);
 }
 
-.custom .bumper {
+.xbox .bumper {
     width: 180px;
     height: 61px;
     background: url(https://i.imgur.com/LK2Y2Me.png);
     opacity: 0;
 }
 
-.custom .bumpers {
+.xbox .bumpers {
     position: absolute;
     width: 536px;
     height: 61px;
@@ -64,15 +64,15 @@
     top: 70px;
 }
 
-.custom .bumper.pressed {
+.xbox .bumper.pressed {
     opacity: 1;
 }
 
-.custom .bumper.left {
+.xbox .bumper.left {
     float: left;
 }
 
-.custom .bumper.right {
+.xbox .bumper.right {
     position: absolute;
     width: 180px;
     height: 61px;
@@ -82,7 +82,7 @@
     transform: rotateY(180deg);
 }
 
-.custom .quadrant {
+.xbox .quadrant {
     position: absolute;
     background: url(xbox-assets/quadrant.svgz);
     height: 0px;
@@ -94,27 +94,27 @@
 
 
 
-.custom .p0 {
+.xbox .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
-.custom .p1 {
+.xbox .p1 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.custom .p2 {
+.xbox .p2 {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
-.custom .p3 {
+.xbox .p3 {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-.custom .arrows {
+.xbox .arrows {
     position: absolute;
     width: 141px;
     height: 33px;
@@ -122,31 +122,31 @@
     left: 306px;
 }
 
-.custom .back, .custom .start {
+.xbox .back, .xbox .start {
     background: url(https://i.imgur.com/XByu7Tn.png);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.custom .back.pressed, .custom .start.pressed {
+.xbox .back.pressed, .xbox .start.pressed {
     opacity: 1;
 }
 
-.custom .back {
+.xbox .back {
     position: absolute;
     top: -113px;
     left: -38px;
 }
 
-.custom .start {
+.xbox .start {
     background-position: 33px 0px;
     position: absolute;
     top: -113px;
     left: 140px;
 }
 
-.custom .abxy {
+.xbox .abxy {
     position: absolute;
     width: 153px;
     height: 156px;
@@ -154,44 +154,44 @@
     left: 488px;
 }
 
-.custom .button {
+.xbox .button {
     position: absolute;
     background: url(https://i.imgur.com/WFa7lWR.png);
     width: 48px;
     height: 48px;
 }
 
-.custom .button.pressed {
+.xbox .button.pressed {
     background-position-y: -48px;
     margin-top: 0px;
     opacity: 1;
 }
 
-.custom .a {
+.xbox .a {
     background-position: 0 0;
     top: 50px;
     left: 55px;
 }
 
-.custom .b {
+.xbox .b {
     background-position: -49px 0;
     top: 4px;
     right: 0px;
 }
 
-.custom .x {
+.xbox .x {
     background-position: -98px 0;
     top: 4px;
     left: 4px;
 }
 
-.custom .y {
+.xbox .y {
     background-position: 48px 0;
     left: 55px;
     top: -48px;
 }
 
-.custom .sticks {
+.xbox .sticks {
     position: absolute;
     width: 371px;
     height: 196px;
@@ -199,7 +199,7 @@
     left: 144px;
 }
 
-.custom .stick {
+.xbox .stick {
     position: absolute;
     background: url(https://i.imgur.com/Qzy4z48.png);
     background-position: -85px 0;
@@ -207,21 +207,21 @@
     width: 83px;
 }
 
-.custom .stick.pressed {
+.xbox .stick.pressed {
     background-position: 0 0;
 }
 
-.custom .stick.left {
+.xbox .stick.left {
     top: -60px;
     left: -10px;
 }
 
-.custom .stick.right {
+.xbox .stick.right {
     top: 40px;
     left: 280px;
 }
 
-.custom .dpad {
+.xbox .dpad {
     position: absolute;
     width: 110px;
     height: 111px;
@@ -229,17 +229,17 @@
     left: 223px;
 }
 
-.custom .face {
+.xbox .face {
     background: url(https://i.imgur.com/qRAbod0.png);
     position: absolute;
     opacity: 0;
 }
 
-.custom .face.pressed {
+.xbox .face.pressed {
     opacity: 1;
 }
 
-.custom .face.up {
+.xbox .face.up {
     background-position: 34px 0;
     left: 25px;
     top: -80px;
@@ -247,14 +247,14 @@
     height: 56px;
 }
 
-.custom .face.down {
+.xbox .face.down {
     left: 25px;
     bottom: 80px;
     width: 34px;
     height: 56px;
 }
 
-.custom .face.left {
+.xbox .face.left {
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
@@ -262,7 +262,7 @@
     left: -14px;
 }
 
-.custom .face.right {
+.xbox .face.right {
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
@@ -270,11 +270,11 @@
     right: 14px;
 }
 
-.custom.half {
+.xbox.half {
     margin-top: -315px;
 }
 
-.custom {
+.xbox {
     background: no-repeat center;
 }
 
