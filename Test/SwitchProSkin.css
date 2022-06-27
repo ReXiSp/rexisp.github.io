@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://i.imgur.com/IMtvp0x.png);
+    background: url(base.png);
     height: 600px;
     width: 750px;
     /*    margin-left: -375px;
@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(https://i.imgur.com/IMtvp0x.png);
+    background: url(base.png);
 }
 
 .xbox.disconnected {
-    background: url(https://i.imgur.com/vW26zr6.png);
+    background: url(disconnect.png);
 }
 
 .xbox.disconnected div {
@@ -29,7 +29,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(https://i.imgur.com/O4FPkVe.png);
+    background: url(trigger.png);
     opacity: 0;
 }
 
@@ -52,7 +52,7 @@
 .xbox .bumper {
     width: 180px;
     height: 61px;
-    background: url(https://i.imgur.com/LK2Y2Me.png);
+    background: url(bumper.png);
     opacity: 0;
 }
 
@@ -84,7 +84,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svgz);
+    background: url();
     height: 0px;
     width: 0px;
     top: 258px;
@@ -123,7 +123,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://i.imgur.com/XByu7Tn.png);
+    background: url(start-select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -156,7 +156,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://i.imgur.com/WFa7lWR.png);
+    background: url(abxy.png);
     width: 48px;
     height: 48px;
 }
@@ -201,7 +201,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://i.imgur.com/Qzy4z48.png);
+    background: url(stick.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -230,7 +230,7 @@
 }
 
 .xbox .face {
-    background: url(https://i.imgur.com/qRAbod0.png);
+    background: url(dpad.png);
     position: absolute;
     opacity: 0;
 }
